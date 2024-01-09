@@ -1,0 +1,201 @@
+/* common related style */
+body{
+    font-family: Merriweather;
+}   
+/* header related styles */
+.first-banner{
+
+    background-image: url('../images/Banner Image.png'); 
+            width: 100%;
+            height: 600px;  
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 10px 50px 50px 50px;
+
+ 
+}
+.small-title{
+    color: #FFF;
+margin: 0px;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 50px;
+}
+.big-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+margin: 0px;
+}
+.discount{
+    width: 1600px;
+    height: 700px;
+    background: #FFF;
+    text-align: center;
+    margin: 10px 50px 50px 50px;
+}
+.discount-content{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.deal{
+    color: #F00;
+   
+}
+.discount-title{
+    color: #070211;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year{
+    text-align: center;
+}
+.second-banner{
+    width: 100%;
+            height: 600px; 
+            margin: 10px 50px 50px 50px;
+    background-repeat: no-repeat;
+            background-position: center;
+            margin: 10px 50px 50px 50px;
+    background-image: url('../images/Vectorrr.png');
+}
+.big-second-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+
+}
+.second-content{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    justify-self: start;
+}
+.second-banner-btn{
+    justify-self: start;
+}
+.btn-white{
+    color: #FFF;
+    justify-self: start;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    border: 0;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.text-banner{
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%); 
+    border-radius: 16px;
+    text-align: center;
+    margin: 10px 50px 50px 50px;
+    padding-top: 30px;
+
+}
+/* .text-banner{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%); 
+    background-position: center;
+    margin: 10px 50px 50px 50px;
+} */
+.join{ 
+    padding-left: 32px; 
+    padding-right: 32px; 
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    background: #FF0000; 
+    border-radius: 8px; 
+    color: white;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    display: inline-flex;
+}
+.join-btn{
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+.time-tag{
+    color: #FF0000; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+
+.time{
+    color: #070211;
+     font-size: 32px;
+    font-family: Inter;
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+
+.date-tag{
+    color: #FF0000; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+
+}
+
+.date{
+    color: #070211; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+.place-tag{
+    color: #FF0000; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+}
+.place{
+    color: #070211; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    line-height: 56px; 
+    word-wrap: break-word;
+
+}
